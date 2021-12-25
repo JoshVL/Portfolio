@@ -19,7 +19,7 @@ export const Container = styled.div`
 `;
 
 export const Span = styled.span `
-  font-size: 4rem;
+  font-size: 3rem;
 `;
 
 export const Div1 = styled.div`
