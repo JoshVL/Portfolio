@@ -2,18 +2,22 @@ import React from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AccomplishmentsStyles';
-
-const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
-];
+import { AccomplishmentsData } from '../../constants/constants';
 
 const Accomplishments = () => (
-  <div>
-    Accomplishments
-  </div>
+  <Section>
+    <br />
+    <SectionDivider />
+    <SectionTitle main>Fun Facts</SectionTitle>
+    <Boxes>
+      {AccomplishmentsData.map((card, index) => (
+        <Box key={index}>
+
+          <BoxText>{card.text}</BoxText>
+        </Box>
+      ))}
+    </Boxes>
+  </Section>
 );
 
 export default Accomplishments;

@@ -40,6 +40,13 @@ export const projects = [
 export const AboutMeData = [
   { year: 2018, text: 'Graduated from Franklin High School. Began college at the University of Wisconsin - Madison for computer sciences', },
   { year: 2019, text: 'Obtained a job at University Housing for IT help desk support.', },
-  { year: 2020, text: 'Switched jobs to be IT support for the Electrical & Computer Engineering department at the University of Wisconsin - Madison.', },
+  { year: 2020, text: 'Switched departments to be a computer support assistant for the Electrical & Computer Engineering department at the University of Wisconsin - Madison.', },
   { year: 2021, text: 'Graduated from the University of Wisconsin - Madison in December 2021 with a B.S. in Computer Sciences and a certificate in Game Design.', },
+];
+
+export const AccomplishmentsData = [
+  { number: 1, text: 'I have marched in the Rose Parade and Rose Bowl in 2020 for New Years.'},
+  { number: 2, text: 'My first programming experience was in high school using Visual Basic.', },
+  { number: 3, text: 'I enjoy playing rhythm games. My favorites include Taiko no Tatusjin, Guitar Hero/Rock Band, and Dancerush Stardom.', },
+  { number: 4, text: 'In addition to rhythm games, I like playing many instruments. I can play the euphonium, trombone, guitar, and some piano.', }
 ];
