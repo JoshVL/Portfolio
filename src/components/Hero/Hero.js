@@ -11,8 +11,11 @@ const Hero = (props) => (
         Hello World!<br />
         I'm Josh Villanueva.
       </SectionTitle>
+      <br />
+        <img src='/images/me.png' height="300" />
+      <br /><br />
       <SectionText>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Heyo, I'm Josh! I'm a new graduate straight out of Wisconsin. I'm currently looking for opportunties to apply the skills and knowledge that I have obtained from studying at the University of Wisconsin - Madison and my student jobs working in IT. I'm interested in pursuing all areas of computer science, including frontend development, backend development, software engineering, and information technology and development areas.
       </SectionText>
     </LeftSection>
   </Section>

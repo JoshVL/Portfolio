@@ -32,7 +32,7 @@ export const projects = [
     image: '/images/gtown.png',
     tags: ['Three.JS', 'Javascript'],
     source: 'https://github.com/JoshVL/GraphicsTown',
-    //visit: 'https://google.com',
+    visit: 'https://joshvl.github.io/GraphicsTown/',
     id: 3,
   },
 ];
