@@ -7,7 +7,7 @@ const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider />
     <br />
-    <SectionTitle main>Technologies</SectionTitle>
+    <SectionTitle main>Skills and Knowledge</SectionTitle>
     <SectionText>
       Here's all the technologies and programming languages that I've learned throughout my undergrad experience and other applications!
     </SectionText>
@@ -42,7 +42,7 @@ const Technologies = () =>  (
           <ListParagraph>
             Git <br />
             Unity <br />
-            OS <br />
+            Basic Linux <br />
             IT Help Desk <br />
           </ListParagraph>
         </ListContainer>
