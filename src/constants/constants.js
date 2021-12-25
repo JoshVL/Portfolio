@@ -37,10 +37,9 @@ export const projects = [
   },
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+export const AboutMeData = [
+  { year: 2018, text: 'Graduated from Franklin High School. Began college at the University of Wisconsin - Madison for computer sciences', },
+  { year: 2019, text: 'Obtained a job at University Housing for IT help desk support.', },
+  { year: 2020, text: 'Switched jobs to be IT support for the Electrical & Computer Engineering department at the University of Wisconsin - Madison.', },
+  { year: 2021, text: 'Graduated from the University of Wisconsin - Madison in December 2021 with a B.S. in Computer Sciences and a certificate in Game Design.', },
 ];
