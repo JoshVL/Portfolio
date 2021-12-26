@@ -1,11 +1,10 @@
-// TODO: import and use Comfortaa font
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
+// Style page for themes. Added Comfortaa
 
 export default {
   // Comfortaa Font
   fonts: {
     title: "Space Grotesk, sans-serif",
-    main: "Space Grotesk, sans-serif"
+    main: "Comfortaa, sans-serif"
   },
   // Colors for layout
   colors: {
