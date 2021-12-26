@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillControl, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
-import { RiGamepadFill } from 'react-icons/ri';
-import { DiCssdeck } from 'react-icons/di';
+import { FaItchIo } from 'react-icons/fa';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
@@ -37,7 +36,7 @@ const Header = () =>  (
         <AiFillGithub size="3rem" />
       </SocialIcons>
       <SocialIcons href="https://joshvl.itch.io/">
-        <RiGamepadFill size="3rem" />
+        <FaItchIo size="3rem" />
       </SocialIcons>
       <SocialIcons href="https://www.linkedin.com/in/joshua-villanueva-981411196/">
         <AiFillLinkedin size="3rem" />

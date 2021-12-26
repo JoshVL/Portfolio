@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
-import { RiGamepadFill } from 'react-icons/ri';
+import { FaItchIo } from 'react-icons/fa';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -26,7 +26,7 @@ const Footer = () => {
           <AiFillGithub size="3rem" />
         </SocialIcons>
         <SocialIcons href="https://joshvl.itch.io/">
-          <RiGamepadFill size="3rem" />
+          <FaItchIo size="3rem" />
         </SocialIcons>
         <SocialIcons href="https://www.linkedin.com/in/joshua-villanueva-981411196/">
           <AiFillLinkedin size="3rem" />

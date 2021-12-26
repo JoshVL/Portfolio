@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaTerminal, FaFigma, FaGitAlt } from 'react-icons/fa';
+import { FaTerminal, FaReadme, FaGlasses } from 'react-icons/fa';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -17,33 +17,45 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Programming Languages</ListTitle>
           <ListParagraph>
-            Python, Java, <br />
-            Javascript, <br />
-            C, C++, C# <br />
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <FaFigma size="3rem" />
-        <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
+            Python<br />
+            Java <br />
+            Javascript <br />
             Vue <br />
-            Three.JS <br />
-            React <br />
-            Figma <br />
+            C <br />
+            C++ <br />
+            C# <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <FaGitAlt size="3rem" />
+        <FaReadme size="3rem" />
+        <ListContainer>
+          <ListTitle>Relevant Classwork</ListTitle>
+          <ListParagraph>
+            Software Engineering <br />
+            Data Structures <br />
+            AI and Machine Learning<br />
+            Operating Systems <br />
+            Algorithms<br />
+            Computer Graphics <br />
+            Game Design<br />
+            Virtual Reality <br />
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <FaGlasses size="3rem" />
         <ListContainer>
           <ListTitle>Other Knowledge</ListTitle>
           <ListParagraph>
             Git <br />
             Unity <br />
+            Oculus VR <br />
             Basic Linux <br />
             IT Help Desk <br />
+            Figma <br />
+            Adobe CC <br />
+            Office / Drive <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
