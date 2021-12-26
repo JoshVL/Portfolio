@@ -9,7 +9,7 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './Heade
 const Header = () =>  (
   <Container>
     <Div1>
-      <Link href="/">
+      <Link passHref href="/">
         <a style={{ display: "flex", alignItems: "center", color: 'white', marginBottom: '20px'}}>
           <img src='/images/emblem.png' height="50" /><Span>JoshVL</Span>
         </a>
@@ -17,17 +17,17 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
+        <Link passHref href="#projects">
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech">
+        <Link passHref href="#tech">
           <NavLink>Skills And Knowledge</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about">
+        <Link passHref href="#about">
           <NavLink>About Me</NavLink>
         </Link>
       </li>

@@ -1,18 +1,17 @@
 import React from 'react';
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionText } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AccomplishmentsStyles';
 import { AccomplishmentsData } from '../../constants/constants';
 
 const Accomplishments = () => (
   <Section>
-    <br />
-    <SectionDivider />
-    <SectionTitle main>Fun Facts</SectionTitle>
+    <SectionText>
+      Fun Facts and Stats
+    </SectionText>
     <Boxes>
       {AccomplishmentsData.map((card, index) => (
         <Box key={index}>
-
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}
