@@ -45,8 +45,8 @@ export const AboutMeData = [
 ];
 
 export const AccomplishmentsData = [
-  { number: 1, text: 'I have marched in the Rose Parade and Rose Bowl in 2020 for New Years.'},
-  { number: 2, text: 'My first programming experience was in high school using Visual Basic.', },
-  { number: 3, text: 'I enjoy playing rhythm games. My favorites include Taiko no Tatusjin, Guitar Hero/Rock Band, and Dancerush Stardom.', },
-  { number: 4, text: 'In addition to rhythm games, I like playing many instruments. I can play the euphonium, trombone, guitar, and some piano.', }
+  { number: '5+', text: 'Programming Languages'},
+  { number: 3.5, text: 'Years in university to graduate', },
+  { number: 2, text: 'IT Student Jobs', },
+  { number: "5+", text: 'Public Repositories and Projects', }
 ];
