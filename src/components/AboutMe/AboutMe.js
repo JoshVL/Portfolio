@@ -47,8 +47,14 @@ const AboutMe = () => {
       <br />
       <SectionDivider />
       <SectionTitle main>About Me</SectionTitle>
+      <br />
+      <img src='/images/csme.jpg' height="400" width="600" />
       <SectionText>
-        TODO: Put more info about yourself. I'm lazy rn - Jesh
+        I'm currently exploring topics of computer science and applying skills that I've learned in college to make small projects while I search for a job to start my career in the field of computer sciences. I mainly like to make games, but I'm using this time of exploration to learn new things, such as front-end development like creating this portfolio site, or more areas of Linux. Computers have always fascinated me, and whether that means building computers, messing with laptops, tinkering with Linux, or helping others with their tech support problems, I'm always game to work with technology and computers.
+      </SectionText>
+      <br />
+      <SectionText>
+        Here's a timeline of my experience and history so far in my life!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -112,6 +118,11 @@ const AboutMe = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
+      <br />
+      <img src='/images/bme.jpg' height="400" width="600" />
+      <SectionText>
+        Outside of coding and computers, I enjoy playing instruments. While at the University of Wisconsin, I was a member and leader of my rank in the Badger Band. Going to three bowl games, being able to march and play in the Rose Bowl and Rose Parade was a fun experience of my life. Otherwise, I dabble with the trombone, guitar, and piano. Along with my game design certificate, I am a certified gamer. I enjoy playing games in my free time of all genres, with my favorite being rhythm games. One project that I'd like to do eventually is to make a rhythm game of my own, inspired by the ones I enjoy playing.
+      </SectionText>
     </Section>
   );
 };
