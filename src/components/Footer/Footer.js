@@ -28,7 +28,7 @@ const Footer = () => {
         <SocialIcons href="https://joshvl.itch.io/">
           <FaItchIo size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/joshua-villanueva-981411196/">
+        <SocialIcons href="https://linkedin.com/in/joshvl">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
       </SocialIconsContainer>
