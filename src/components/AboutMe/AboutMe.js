@@ -50,7 +50,7 @@ const AboutMe = () => {
       <br />
       <img src='/images/csme.jpg' height="400" width="600" />
       <SectionText>
-        I'm currently exploring topics of computer science and applying skills that I've learned in college to make small projects while I search for a job to start my career in the field of computer sciences. I mainly like to make games, but I'm using this time of exploration to learn new things, such as front-end development like creating this portfolio site, or more areas of Linux. Computers have always fascinated me, and whether that means building computers, messing with laptops, tinkering with Linux, or helping others with their tech support problems, I'm always game to work with technology and computers.
+        I'm currently exploring topics of computer science and applying skills that I've learned in college to make small projects before I start my career at Target in September as a software engineer in their Technology Leadership Program. I mainly like to make games, but I'm using this time of exploration to learn new things, such as front-end development like creating this portfolio site, or more areas of Linux. Computers have always fascinated me, and whether that means building computers, messing with laptops, tinkering with Linux, or helping others with their tech support problems, I'm always game to work with technology and computers.
       </SectionText>
       <br />
       <SectionText>

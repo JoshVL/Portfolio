@@ -15,7 +15,7 @@ const Hero = (props) => (
         <img src='/images/me.png' height="300" width="300" />
       <br /><br />
       <SectionText>
-      Heyo, I'm Josh! I'm a new graduate straight out of Wisconsin. I'm currently looking for opportunties to apply the skills and knowledge that I have obtained from studying at the University of Wisconsin - Madison and my student jobs working in IT. I'm interested in pursuing all areas of computer science, including frontend development, backend development, software engineering, and information technology and development areas.
+      Heyo, I'm Josh! I graduated from the University of Wisconsin - Madison in December 2021, and I will be starting at Target in September 2022 as a software engineer in their Technology Leadership Program. I'm interested in learning and exploring all areas of computer science, including frontend development, backend development, software engineering, and information technology and development areas.
       </SectionText>
       <a href="https://joshvl.com/resume.pdf" target="_blank">
         <Button> View Resume </Button>
