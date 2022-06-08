@@ -42,12 +42,12 @@ export const AboutMeData = [
   { year: 2019, text: 'Obtained a job at University Housing for IT help desk support.', },
   { year: 2020, text: 'Switched departments to be a computer support assistant for the Electrical & Computer Engineering department at the University of Wisconsin - Madison.', },
   { year: 2021, text: 'Graduated from the University of Wisconsin - Madison in December 2021 with a B.S. in Computer Sciences and a certificate in Game Design.', },
-  { year: 2022, text: 'Starting at Target in September as a Software Engineer in the Technology Leadership Program.', },
+  { year: 2022, text: 'Started working at Target as a software engineer in their Technology Leadership Program.', },
 ];
 
 export const AccomplishmentsData = [
   { number: '5+', text: 'Programming Languages'},
-  { number: 3.5, text: 'Years in university to graduate', },
-  { number: 2, text: 'IT Student Jobs', },
+  { number: 3.5, text: 'Years To Bachelors Degree Completion', },
+  { number: 3, text: 'Jobs In Software Engineering / IT', },
   { number: "5+", text: 'Public Repositories and Projects', }
 ];
