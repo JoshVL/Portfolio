@@ -5,7 +5,6 @@ export const projects = [
       image: '/images/recipecomp.png',
       tags: ['Vue', 'TypeScript', 'C#', 'SQL'],
     source: 'https://github.com/JoshVL/Recipe-Compiler-Frontend',
-    visit: 'https://victorious-island-0b09e7210.azurestaticapps.net/',
     id: 0,
   },
   {
@@ -32,7 +31,6 @@ export const projects = [
     image: '/images/gtown.png',
     tags: ['Three.JS', 'Javascript'],
     source: 'https://github.com/JoshVL/GraphicsTown',
-    visit: 'https://joshvl.github.io/GraphicsTown/',
     id: 3,
   },
 ];
@@ -47,7 +45,7 @@ export const AboutMeData = [
 
 export const AccomplishmentsData = [
   { number: '5+', text: 'Programming Languages'},
-  { number: 3.5, text: 'Years To Bachelors Degree Completion', },
-  { number: 3, text: 'Jobs In Software Engineering / IT', },
+  { number: '1', text: 'B.S. Degree in CS @ UW-Madison', },
+  { number: 3, text: 'Different Tech Stacks Experienced', },
   { number: "5+", text: 'Public Repositories and Projects', }
 ];

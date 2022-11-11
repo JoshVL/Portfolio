@@ -48,13 +48,23 @@ const AboutMe = () => {
       <SectionDivider />
       <SectionTitle main>About Me</SectionTitle>
       <br />
-      <img src='/images/csme.jpg' height="400" width="600" />
+      <img src='/images/tt.png' height="205" width="400" />
       <SectionText>
-        I'm currently exploring topics of computer science and applying skills that I've learned to make small projects or learn more about the cool things computers and code can do. I mainly like to make games, but I'm using this time of exploration to learn new things, such as front-end development like creating this portfolio site, or more areas of game design and hosting game servers to play online games with friends. Computers have always fascinated me, and whether that means building computers, messing with portables, tinkering with Linux, or helping others with their tech support problems, I'm always game to work with technology and computers.
+        I'm currently a software engineer at Target in their technology leadership program. I'm currently doing 
+        frontend work with React and TypeScript. Once my first rotation is over, I plan to do backend work to 
+        experience and learn as much as I can. Before Target, I was a student at the University of Wisconsin - 
+        Madison. Within my undergrad I studied computer science and game design. I also worked in IT at college at 
+        both the university housing department and electrical/computer engineering department. 
+      </SectionText>
+      <img src='/images/uw.png' height="205" width="205" />
+      <SectionText>
+        Outside of work, I like to tinker with computers by modifying simple games, create experiences custom suited 
+        towards my preferences, or experiment with other technology. I've learned that technology is always advancing 
+        and changing, so it's important to me to always keep up to date and informed.
       </SectionText>
       <br />
       <SectionText>
-        Here's a timeline of my experience and history so far in my life!
+        Here's a timeline of my experience and history so far throughout my career:
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -118,10 +128,13 @@ const AboutMe = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <br />
-      <img src='/images/bme.jpg' height="400" width="600" />
+      <img src='/images/music.png' height="205" width="205" />
       <SectionText>
-        Outside of coding and computers, I enjoy playing instruments. While at the University of Wisconsin, I was a member and leader of my rank in the Badger Band. Going to three bowl games, being able to march and play in the Rose Bowl and Rose Parade was a fun experience of my life. Otherwise, I dabble with the trombone, guitar, and piano. Along with my game design certificate, I am a certified gamer. I enjoy playing games in my free time of all genres, with my favorite being rhythm games. One project that I'd like to do eventually is to make a rhythm game of my own, inspired by the ones I enjoy playing.
+        Beyond technology interests, I enjoy playing instruments. 
+        I dabble with the trombone, euphonium, guitar, and piano. 
+        With my game design certificate, I am a certified gamer. I enjoy playing video games in my free 
+        time of all genres, with my favorite being rhythm games. One project that I'd like to do eventually 
+        is to make a rhythm game of my own, inspired by the ones I enjoy playing.
       </SectionText>
     </Section>
   );

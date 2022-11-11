@@ -29,7 +29,6 @@ const Projects = () => (
             </div>
             <UtilityList>
               <ExternalLinks href={source}>Code</ExternalLinks>
-              <ExternalLinks href={visit}>Preview</ExternalLinks>
             </UtilityList>
           </TitleContent>
         </BlogCard>

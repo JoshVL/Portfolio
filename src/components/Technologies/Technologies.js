@@ -15,14 +15,15 @@ const Technologies = () =>  (
       <ListItem>
         <FaTerminal size="3rem" />
         <ListContainer>
-          <ListTitle>Programming Languages</ListTitle>
+          <ListTitle>Technologies</ListTitle>
           <ListParagraph>
+            React <br />
+            TypeScript <br />
+            Javascript <br />
+            Kotlin <br />
             Python<br />
             Java <br />
-            Javascript <br />
             Vue <br />
-            C <br />
-            C++ <br />
             C# <br />
           </ListParagraph>
         </ListContainer>
