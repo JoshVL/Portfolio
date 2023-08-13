@@ -9,7 +9,7 @@ const Technologies = () =>  (
     <br />
     <SectionTitle main>Skills and Knowledge</SectionTitle>
     <SectionText>
-      Here's all the technologies and programming languages that I've learned throughout my undergrad experience and other applications!
+      Here's all the technologies and programming languages that I've learned throughout my career, college, and other applications!
     </SectionText>
     <List>
       <ListItem>
@@ -17,30 +17,26 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Technologies</ListTitle>
           <ListParagraph>
-            React <br />
-            TypeScript <br />
-            Javascript <br />
-            Kotlin <br />
-            Python<br />
-            Java <br />
-            Vue <br />
-            C# <br />
+            Kotlin / Java / Groovy <br />
+            TypeScript / Javascript <br />
+            PostgreSQL / Oracle<br />
+            React / HTML / CSS<br />
+            JUnit / Jest / Cypress<br />
+            Micronaut<br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <FaReadme size="3rem" />
         <ListContainer>
-          <ListTitle>Relevant Classwork</ListTitle>
+          <ListTitle>Skills</ListTitle>
           <ListParagraph>
-            Software Engineering <br />
-            Data Structures <br />
-            AI and Machine Learning<br />
-            Operating Systems <br />
-            Algorithms<br />
-            Computer Graphics <br />
-            Game Design<br />
-            Virtual Reality <br />
+            Agile Development <br />
+            REST API Development <br />
+            Unit/Func/Integration Testing <br />
+            CI/CD Pipelines & Automation<br />
+            Database Management <br />
+            On Call Support<br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -49,12 +45,10 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Other Knowledge</ListTitle>
           <ListParagraph>
-            Git <br />
-            Unity <br />
-            Oculus VR <br />
-            Basic Linux <br />
-            IT Help Desk <br />
-            Figma <br />
+            Git / GitHub <br />
+            Jira / Confluence / Figma <br />
+            Unity / Oculus VR<br />
+            Terminal & Basic Unix<br />
             Adobe CC <br />
             Office / Drive <br />
           </ListParagraph>

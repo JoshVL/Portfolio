@@ -50,11 +50,12 @@ const AboutMe = () => {
       <br />
       <img src='/images/tt.png' height="205" width="400" />
       <SectionText>
-        I'm currently a software engineer at Target in their technology leadership program. I'm currently doing 
-        frontend work with React and TypeScript. Once my first rotation is over, I plan to do backend work to 
-        experience and learn as much as I can. Before Target, I was a student at the University of Wisconsin - 
-        Madison. Within my undergrad I studied computer science and game design. I also worked in IT at college at 
-        both the university housing department and electrical/computer engineering department. 
+        I'm currently a software engineer at Target doing backend API development within supply chain. At Target,
+        I have done both frontend and backend work, learning how to implement business tasks, automate and deploy
+        workflow pipelines, managing databases, doing on-call support and so-on within the supply chain area.
+        Before Target, I was a student at the University of Wisconsin - Madison. Within my undergrad I studied 
+        computer science and game design. I also worked in IT at college at both the university housing department 
+        and electrical/computer engineering department. 
       </SectionText>
       <img src='/images/uw.png' height="205" width="205" />
       <SectionText>
@@ -131,7 +132,8 @@ const AboutMe = () => {
       <img src='/images/music.png' height="205" width="205" />
       <SectionText>
         Beyond technology interests, I enjoy playing instruments. 
-        I dabble with the trombone, euphonium, guitar, and piano. 
+        I dabble with the trombone, euphonium, guitar, and piano.
+        When I'm feeling adventerous, I'll go for a bike ride or walk around some unexplored areas around me.
         With my game design certificate, I am a certified gamer. I enjoy playing video games in my free 
         time of all genres, with my favorite being rhythm games. One project that I'd like to do eventually 
         is to make a rhythm game of my own, inspired by the ones I enjoy playing.

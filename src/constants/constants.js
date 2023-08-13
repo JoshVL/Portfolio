@@ -36,16 +36,17 @@ export const projects = [
 ];
 
 export const AboutMeData = [
-  { year: 2018, text: 'Graduated from Franklin High School. Began college at the University of Wisconsin - Madison for computer sciences', },
+  { year: 2018, text: 'Began college at the University of Wisconsin - Madison for computer sciences', },
   { year: 2019, text: 'Obtained a job at University Housing for IT help desk support.', },
   { year: 2020, text: 'Switched departments to be a computer support assistant for the Electrical & Computer Engineering department at the University of Wisconsin - Madison.', },
   { year: 2021, text: 'Graduated from the University of Wisconsin - Madison in December 2021 with a B.S. in Computer Sciences and a certificate in Game Design.', },
-  { year: 2022, text: 'Started working at Target as a software engineer in their Technology Leadership Program.', },
+  { year: 2022, text: 'Started working at Target as a software engineer in their Technology Leadership Program. Worked with both frontend and backend stacks.', },
+  { year: 2023, text: 'Completed the Technology Leadership Program at Target, promoted to L4 Software Engineer.', },
 ];
 
 export const AccomplishmentsData = [
-  { number: '5+', text: 'Programming Languages'},
+  { number: 5, text: 'Different Tech Stacks Experienced', },
+  { number: '1+', text: 'Years of Professional Experience', },
   { number: '1', text: 'B.S. Degree in CS @ UW-Madison', },
-  { number: 3, text: 'Different Tech Stacks Experienced', },
-  { number: "5+", text: 'Public Repositories and Projects', }
+  { number: '99+', text: 'Working PRs pushed to prod', }
 ];
