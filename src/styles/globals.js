@@ -31,6 +31,19 @@ const GlobalStyles = createGlobalStyle`
   li{
     list-style: none;
   }
+  /* Default image styling for desktop */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Mobile-only image centering */
+  @media ${(props) => props.theme.breakpoints.sm} {
+    img {
+      display: block;
+      margin: 0 auto; /* Centers the image horizontally */
+    }
+  }
 
 `;
 

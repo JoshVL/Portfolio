@@ -48,16 +48,27 @@ const AboutMe = () => {
       <SectionDivider />
       <SectionTitle main>About Me</SectionTitle>
       <br />
+      <img src='/images/nwm.png' height="200" width="400" />
+      <br />
+      <SectionText>
+        I'm currently a Software Engineer at Northwestern Mutual. I'm working to develop and optimize APIs to integrate for seamless data movement 
+        across the organization, and having practices in data governance, classification, and transformation. This position leverages modern engineering tools 
+        and languages, including Java, Node.js, Python, and RESTful services, to further expand my knowledge and growth as an engineer in an ever changing technology environment.
+      </SectionText>
       <img src='/images/tt.png' height="205" width="400" />
       <SectionText>
-        I'm currently a software engineer at Target doing backend API development within supply chain. At Target,
+        Previously, I was a Software Engineer at Target working within tech of the supply chain sector. At Target,
         I have done both frontend and backend work, learning how to implement business tasks, automate and deploy
-        workflow pipelines, managing databases, doing on-call support and so-on within the supply chain area.
-        Before Target, I was a student at the University of Wisconsin - Madison. Within my undergrad I studied 
+        workflow pipelines, creating REST APIs, managing databases, doing on-call support and so-on within the supply chain area to ensure 
+        the millions of products and inventories are loaded and shipped to where they needed to be across the nation.
+      </SectionText>
+      <img src='/images/uw.png' height="180" width="180" />
+      <SectionText>
+        Before starting my professional career, I was a student at the University of Wisconsin - Madison. Within my undergrad I studied 
         computer science and game design. I also worked in IT at college at both the university housing department 
         and electrical/computer engineering department. 
       </SectionText>
-      <img src='/images/uw.png' height="205" width="205" />
+      <img src='/images/controller.png' height="205" width="205" />
       <SectionText>
         Outside of work, I like to tinker with computers by modifying simple games, create experiences custom suited 
         towards my preferences, or experiment with other technology. I've learned that technology is always advancing 

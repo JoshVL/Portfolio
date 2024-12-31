@@ -17,3 +17,12 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+export const ProfileImage = styled.img`
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 50%; /* Optional: give this image a circular frame */
+`;

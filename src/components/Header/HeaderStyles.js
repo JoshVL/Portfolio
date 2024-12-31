@@ -50,17 +50,42 @@ export const Div3 = styled.div`
   }
 `;
 
+// Logo Link TODO eventually
+export const LogoLink = styled.a`
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
+
+  img {
+
+    @media ${(props) => props.theme.breakpoints.sm} {
+      height: 10px;  /* Adjust size for mobile */
+      width: 10px;
+    }
+
+    @media ${(props) => props.theme.breakpoints.md} {
+      height: 100px;  /* Adjust size for larger screens (desktop) */
+      width: 100px;
+    }
+  }
+`;
+
 // Navigation Links
 export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
+  text-align: center; /* Center the text within the link */
+  display: block; /* Ensure the link takes up the full width for easier centering */
+
   &:hover {
     color: #fff;
     opacity: 1;
     cursor: pointer;
   }
+
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
   }

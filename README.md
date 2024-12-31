@@ -9,5 +9,6 @@ Original Repo: https://github.com/adrianhajdin/portfolio_website
 
 ### Getting Started
 
+- Install Dependencies (npm/node needed): npm install
 - Run Dev Environment: npm run dev
 - Build Site: npm run build

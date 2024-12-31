@@ -3,14 +3,14 @@ import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { FaItchIo } from 'react-icons/fa';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, LogoLink, SocialIcons, Span } from './HeaderStyles';
 
 const Header = () =>  (
   <Container>
     <Div1>
       <Link passHref href="/">
         <a style={{ display: "flex", alignItems: "center", color: 'white', marginBottom: '20px'}}>
-          <img src='/images/emblem.png' height="50" /><Span>JoshVL</Span>
+          <img src='/images/emblem.png' height="50" width="50"/><Span>JoshVL</Span>
         </a>
       </Link>
     </Div1>
